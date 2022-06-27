@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(219, 219, 219);
+    padding: 20px;
+    padding-top: 0px;
+}
+header{ 
+    background-color: rgb(220, 255, 228);
+    box-shadow: 10px 10px 10px 0px rgba(120, 105, 105, 0.75);
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    border: 2px  rgb(255, 251, 251);
+    padding: 0px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+#home{
+    margin-top: 18px;
+    margin-right: 0px;    
+}
+#product{
+    margin: 18px;
+    margin-right: 0px;
+}
+#gallery{
+    margin: 18px;
+    margin-right: 0px;
+}
+#blog{
+    margin: 18px;
+    margin-right: 0px;
+}
+#inventory{
+    margin: 18px;
+    margin-right: 50px;
+}
+
+#isi{
+    display: flex;    
+    flex-direction: row;
+    margin-top: 50px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 1px 0px 10px 0px rgba(120, 105, 105, 0.75);
+    border-radius: 10px;
+}
+.avatar{
+    flex:1;
+    height: 120px;
+    margin: 15px;
+    padding-left: 30px;
+}
+.nama{
+    flex:2;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+.FND{
+    margin-top: -10px;    
+}
+.tombol{
+    margin-top: 30px;
+   
+}
+.tombol_kontak{
+    color: blue
+}
+.detail{
+    flex: 3;
+    padding: 20px;
+}
+#form_body{
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding:50px;
+    
+}
+input{
+    width:1090px;
+}
+textarea{
+    width: 1090px;
+}
+#input{
+    width: 50px;
+    color: rgb(243, 16, 16);
+}
